@@ -45,7 +45,14 @@ $config = [
             'rules' => [
             ],
         ],
-        */
+         */
+        'assetManager' => [
+            'bundles' => [
+                'dmstr\web\AdminLteAsset' => [
+                    'skin' => 'skin-blue',
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];
@@ -55,12 +62,22 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
+        'allowedIPs' => ['192.168.247.1'],
     ];
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
+        'allowedIPs' => ['192.168.247.1'],
     ];
 }
 
+// module:admin
+$config['modules']['admin'] = [
+    'class' => 'app\modules\admin\admin',
+];
+// module:user
+$config['modules']['user'] = [
+    'class' => 'app\modules\user\user'
+];
 return $config;
