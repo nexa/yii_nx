@@ -2,102 +2,98 @@
 
 namespace app\models;
 
-class User extends \yii\base\Object implements \yii\web\IdentityInterface
-{
-    public $id;
-    public $username;
-    public $password;
-    public $authKey;
-    public $accessToken;
+use Yii;
+use yii\db\ActiveRecord;
+use app\utils\NxHelper;
 
-    private static $users = [
-        '100' => [
-            'id' => '100',
-            'username' => 'admin',
-            'password' => 'admin',
-            'authKey' => 'test100key',
-            'accessToken' => '100-token',
-        ],
-        '101' => [
-            'id' => '101',
-            'username' => 'demo',
-            'password' => 'demo',
-            'authKey' => 'test101key',
-            'accessToken' => '101-token',
-        ],
-    ];
+class User extends ActiveRecord {
+    public $rememberMe = true;
+    public $repassword;
+    public $newpassword;
+    public $renewpassword;
 
-    /**
-     * @inheritdoc
-     */
-    public static function findIdentity($id)
-    {
-        return isset(self::$users[$id]) ? new static(self::$users[$id]) : null;
+    public static function tableName() {
+        return '{{%user}}';
     }
 
-    /**
-     * @inheritdoc
-     */
-    public static function findIdentityByAccessToken($token, $type = null)
-    {
-        foreach (self::$users as $user) {
-            if ($user['accessToken'] === $token) {
-                return new static($user);
+    public function attributeLabels() {
+        return [
+            'name' => '名称',
+            'password' => '密码',
+            'email' => '电子邮箱',
+            'cellphone' => '手机号码',
+            'sex' => '性别',
+            'age' => '年龄',
+            'truename' => '姓名',
+            'nickname' => '昵称',
+            'createtime' => '创建时间',
+            'repassword' => '确认密码',
+            'newpassword' => '新密码',
+            'renewpassword' => '确认新密码',
+        ];
+    }
+
+    public function rules() {
+        return [
+            ['name', 'required', 'message' => '请输入用户名', 'on' => ['reg', 'login', 'seekpassword', 'mailchangepassword', 'changemail', 'changepassword']],
+            ['name', 'unique', 'message' => '该用户名已经被注册', 'on' => ['reg']],
+            ['password', 'required', 'message' => '请输入密码', 'on' => ['reg', 'login', 'mailchangepassword']],
+            ['password', 'validatePassword', 'on' => 'login'],
+            ['email', 'required', 'message' => '请输入电子邮箱', 'on' => ['reg', 'seekpassword', 'changeemail']],
+            ['email', 'unique', 'message' => '该电子邮箱已经被占用', 'on' => ['reg']],
+            ['email', 'email', 'on' => ['reg', 'seekpassword', 'changeemail']],
+            ['email', 'validateEmail', 'on' => ['seekpassword']],
+            ['repassword', 'required', 'message' => '请输入确认密码', 'on' => ['reg', 'mailchangepassword']],
+            ['repassword', 'compare', 'compareAttribute' => 'password', 'message' => '确认密码和密码不相同', 'on' => ['reg', 'mailchangepassword']],
+            ['newpassword', 'required', 'message' => '请输入新密码', 'on' => ['changepassword']],
+            ['renewpassword', 'compare', 'compareAttribute' => 'newpassword', 'message' => '确认新密码和新密码不相同', 'on' => ['changepassword']],
+            ['rememberMe', 'boolean', 'on' => ['login']],
+        ];
+    }
+
+    public function validatePassword () {
+        if (!$this->hasErrors()) {
+            $data = self::find()->where('name = :name and password = :password',
+                [':name' => $this->name, ':password' => NxHelper::md5($this->password)])->one();
+            if (is_null($data)) {
+                $this->addError('password', '用户名或密码错误');
             }
+        }       
+    }
+
+    public function validateEmail() {
+        
+    }
+
+    public function createToken($name, $time) {
+        return NxHelper::md5(NxHelper::md5($name).
+            base64_encode(Yii::$app->request->userIP).NxHelper::md5($time));
+    }
+
+    public function reg($data) {
+        $this->scenario = 'reg';
+        if ($this->load($data) && $this->validate()) {
+            $this->password = NxHelper::md5($this->password);
+            if ($this->save(false))
+                return true;
         }
-
-        return null;
+        return false;
     }
 
-    /**
-     * Finds user by username
-     *
-     * @param  string      $username
-     * @return static|null
-     */
-    public static function findByUsername($username)
-    {
-        foreach (self::$users as $user) {
-            if (strcasecmp($user['username'], $username) === 0) {
-                return new static($user);
-            }
+    public function login($data) {
+        $this->scenario = 'login';
+        if ($this->load($data) && $this->validate()) {
+            $lifetime = $this->rememberMe ? 3600 * 23 : 0;
+            $session = Yii::$app->session;
+            session_set_cookie_params($lifetime);
+            $session['user'] = [
+                'name' => $this->name,
+                'isLogin' => 1,
+            ];
+            $this->updateAll(['logintime' => time(), 'loginip' => ip2long(Yii::$app->request->userIP)],
+                'name = :name', [':name' => $this->name]);
+            return (bool)$session['user']['isLogin'];
         }
-
-        return null;
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function getAuthKey()
-    {
-        return $this->authKey;
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function validateAuthKey($authKey)
-    {
-        return $this->authKey === $authKey;
-    }
-
-    /**
-     * Validates password
-     *
-     * @param  string  $password password to validate
-     * @return boolean if password provided is valid for current user
-     */
-    public function validatePassword($password)
-    {
-        return $this->password === $password;
+        return false;
     }
 }
