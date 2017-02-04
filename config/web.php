@@ -14,10 +14,10 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-       // 'user' => [
-       //     'identityClass' => 'app\models\User',
-       //     'enableAutoLogin' => true,
-       // ],
+        'user' => [
+            'identityClass' => 'app\models\User',
+            'enableAutoLogin' => true,
+        ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
@@ -42,10 +42,13 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            //'enableStrictParsing' => false,
             'rules' => [
+                '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
             ],
         ],
-         */
+        */
         'assetManager' => [
             'bundles' => [
                 'dmstr\web\AdminLteAsset' => [
@@ -68,7 +71,7 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
-        'allowedIPs' => ['192.168.247.1'],
+        'allowedIPs' => ['192.168.253.1'],
     ];
 }
 
@@ -79,5 +82,9 @@ $config['modules']['admin'] = [
 // module:user
 $config['modules']['user'] = [
     'class' => 'app\modules\user\user'
+];
+// module dev
+$config['modules']['dev'] = [
+    'class' => 'app\modules\dev\dev'
 ];
 return $config;
