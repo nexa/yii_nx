@@ -23,6 +23,8 @@ class DefaultController extends Controller
     }
 
     public function actionReg() {
+        $this->getView()->title = "注册新用户";
+
         $model = new UserSign;
         if (Yii::$app->request->isPost) {
             $post = Yii::$app->request->post();

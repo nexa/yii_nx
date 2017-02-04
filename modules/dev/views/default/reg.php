@@ -33,6 +33,18 @@ $form = ActiveForm::begin([
 
 <input type="button" id="testBtn" value="AJAX">
 
+<script type="text/JavaScript">
+
+function onSendSMSVerifyCodeSuccess(data, status) {
+    alert(status + ": " + data.id + " " + data.value);
+}
+
+function onSendSMSVerifyCodeError(xhr, status, errorThrow) {
+    alert(status);
+}
+
+</script>
+
 <?php
 /*
 $this->registerJS('$("#testBtn").click(function(){
@@ -48,14 +60,15 @@ $this->registerJS('$("#testBtn").click(function(){
 */
 
 $jsTestBtn = <<<JS
+
 $("#testBtn").click(function(){
     $.ajax({
         type:"POST",
         dataType:"json",
         data:{"id":"1","value":"2"},
         url:"http://nx.dev/index.php?r=dev/default/ajax", 
-        success: function(data, status){alert(data.id);alert(data.value); alert(status);},
-        error: function() {alert("NO");}
+        success: function(data, status){ onSendSMSVerifyCodeSuccess(data, status); },
+        error: function(xhr, status, errorThrow) { onSendSMSVerifyCodeError(xhr, status, errorThrow); }
     });
 });
 JS;

@@ -11605,3 +11605,1042 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1486216074.7186
     'REQUEST_TIME' => 1486216074
 ]
+2017-02-04 14:25:31 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:25:31 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_X_CSRF_TOKEN' => 'X0JoV1pENGoLKx4YMzZ5WDYtJxwAfGwGCSEyESwoZzsTdFwmDQhDLg=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '53328'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486218331.3043
+    'REQUEST_TIME' => 1486218331
+]
+2017-02-04 14:28:11 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 14:28:11 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:28:11 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '53402'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486218491.2846
+    'REQUEST_TIME' => 1486218491
+]
+2017-02-04 14:51:22 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:51:22 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_X_CSRF_TOKEN' => 'U0xtWWVLQjEHJRsWDDkPAzojIhI/cxpdBS83HxMnEWAfelkoMgc1dQ=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54642'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486219882.0196
+    'REQUEST_TIME' => 1486219882
+]
+2017-02-04 14:58:51 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:58:51 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_X_CSRF_TOKEN' => 'U0xtWWVLQjEHJRsWDDkPAzojIhI/cxpdBS83HxMnEWAfelkoMgc1dQ=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54851'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220331.4943
+    'REQUEST_TIME' => 1486220331
+]
+2017-02-04 14:58:55 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 14:58:55 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:58:55 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54851'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220335.7683
+    'REQUEST_TIME' => 1486220335
+]
+2017-02-04 14:58:56 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 14:58:56 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:58:56 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54851'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220336.4454
+    'REQUEST_TIME' => 1486220336
+]
+2017-02-04 14:58:58 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 14:58:58 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:58:58 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54851'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220338.6864
+    'REQUEST_TIME' => 1486220338
+]
+2017-02-04 14:59:00 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:59:00 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_X_CSRF_TOKEN' => 'b0V2cmp1WHQ7LAA9AwcVRgYqOTkwTQAYOSYsNBwZCyUjc0IDPTkvMA=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54851'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220340.5616
+    'REQUEST_TIME' => 1486220340
+]
+2017-02-04 14:59:02 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:59:02 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eusto29uamktd2oupd13hb6lp6'
+    '_csrf' => '471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=eusto29uamktd2oupd13hb6lp6; _csrf=471f891d2db4da2c71d9ed58958598d6bc14d16e4e67b4b956784d4cbc944459a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TivOirM2ioOKZ8XlVcZFvlSQL64qWLwD%22%3B%7D'
+    'HTTP_X_CSRF_TOKEN' => 'b0V2cmp1WHQ7LAA9AwcVRgYqOTkwTQAYOSYsNBwZCyUjc0IDPTkvMA=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8'
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54851'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220342.2007
+    'REQUEST_TIME' => 1486220342
+]
+2017-02-04 14:59:30 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 14:59:30 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:59:30 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54875'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220370.8351
+    'REQUEST_TIME' => 1486220370
+]
+2017-02-04 14:59:32 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 14:59:32 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:59:32 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54880'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220372.5689
+    'REQUEST_TIME' => 1486220372
+]
+2017-02-04 14:59:34 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:59:34 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'Ynl6VUIuZENRMUsCLWUPOisuHhA4dxA2ITROZBBHIgEnTRYeA3g3FQ=='
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54880'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220374.9861
+    'REQUEST_TIME' => 1486220374
+]
+2017-02-04 14:59:41 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 14:59:41 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 14:59:41 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54880'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220381.0965
+    'REQUEST_TIME' => 1486220381
+]
+2017-02-04 15:00:38 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 15:00:38 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 15:00:38 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '54880'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220438.8341
+    'REQUEST_TIME' => 1486220438
+]
+2017-02-04 15:00:40 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 15:00:40 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_X_CSRF_TOKEN' => 'TzEzS1hoWHR8eQIcNyMzDQZmVw4iMSwBDHwHegoBHjYKBV8AGT4LIg=='
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '55017'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220440.963
+    'REQUEST_TIME' => 1486220440
+]
+2017-02-04 15:04:59 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 15:04:59 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 15:04:59 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '55133'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220699.4915
+    'REQUEST_TIME' => 1486220699
+]
+2017-02-04 15:05:00 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 15:05:00 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_X_CSRF_TOKEN' => 'VW56QlVIbE5mJksVOgMHNxw5HgcvERg7FiNOcwchKgwQWhYJFB4/GA=='
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '55139'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220700.577
+    'REQUEST_TIME' => 1486220700
+]
+2017-02-04 15:05:18 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+    in /home/nexa/ws/yii_nx/modules/dev/views/layouts/main.php:75
+    in /home/nexa/ws/yii_nx/modules/dev/controllers/DefaultController.php:39
+2017-02-04 15:05:18 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 15:05:18 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '55139'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/reg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dev/default/reg'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220718.3611
+    'REQUEST_TIME' => 1486220718
+]
+2017-02-04 15:05:19 [192.168.253.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.253.1
+2017-02-04 15:05:19 [192.168.253.1][-][-][info][application] $_GET = [
+    'r' => 'dev/default/ajax'
+]
+
+$_POST = [
+    'id' => '1'
+    'value' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV\";}'
+    'PHPSESSID' => 'rapgqhr3nbp2mv7ac2n09chdv1'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => '_csrf=6e5b4a2b112c5d7816ab81565cac19c065d4f134f72c64f449c9b6e67f8ede04a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223H1WoKkyIWdEzYtuCM41RiFBE4lKAVSV%22%3B%7D; PHPSESSID=rapgqhr3nbp2mv7ac2n09chdv1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://nx.dev/index.php?r=dev/default/reg'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4656.400'
+    'HTTP_X_CSRF_TOKEN' => 'ZTJSbmZpeUZWemM5CSISPyxlNiscMA0zJn9mXzQAPwQgBj4lJz8qEA=='
+    'HTTP_ORIGIN' => 'http://nx.dev'
+    'HTTP_CONTENT_LENGTH' => '12'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'nx.dev'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'nx.dev'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.253.128'
+    'REMOTE_PORT' => '55133'
+    'REMOTE_ADDR' => '192.168.253.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=dev/default/ajax'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '12'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=dev/default/ajax'
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1486220719.3499
+    'REQUEST_TIME' => 1486220719
+]
